@@ -38,6 +38,46 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	$('.accessories_carousel').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		prevArrow: '<a class="position-absolute" style="top: 50%; left: 15px;"><i class="fas fa-chevron-left fa-2x text-d"></i></a>',
+		nextArrow: '<a class="position-absolute" style="top: 50%; right: 15px;"><i class="fas fa-chevron-right fa-2x text-d"></i></a>',
+		// prevArrow: '#btn_prev',
+		// nextArrow: '#btn_next',
+		responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+		}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	]
+	});
+});
+
 function testdrive_send(){
 	var data = $('#testdrive_form').serialize();
 	$.ajax({

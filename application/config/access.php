@@ -1,9 +1,10 @@
 <?php
 	return [
 		'all' => [
-			'register',
-			'login',
 			'index',
+			'services',
+			'accessories',
+			'instock',
 		],
 		'admin' => [
 			'admin',

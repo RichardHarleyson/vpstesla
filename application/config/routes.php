@@ -4,21 +4,17 @@ return [
 		'controller' => 'main',
 		'action' => 'index',
 	],
-	// 'contact' => [
-	// 	'controller' => 'main',
-	// 	'action' => 'contact',
-	// ],
-	'account/login' => [
-		'controller' => 'account',
-		'action' => 'login',
+	'services' => [
+		'controller' => 'services',
+		'action' => 'services',
 	],
-	'account/register' => [
-		'controller' => 'account',
-		'action' => 'register',
+	'accessories' => [
+		'controller' => 'accessories',
+		'action' => 'accessories',
 	],
-	'news/show' => [
-		'controller' => 'news',
-		'action' => 'show',
-	]
+	'instock' => [
+		'controller' => 'instock',
+		'action' => 'instock',
+	],
 ];
  ?>

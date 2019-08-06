@@ -18,7 +18,7 @@
 						<input required type="text" name="uphone" class="form-control">
 					</div>
 					<div class="text-center">
-						<a onclick="testdrive_send()" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block w-50 my-1" target="_blank">Отправить</a>
+						<a onclick="testdrive_send()" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block w-50 my-1" >Отправить</a>
 					</div>
 					<div class="test_drive_status text-center my-3">
 
@@ -36,15 +36,15 @@
 							<div class="row">
 									<div class="col-12">
 											<nav class="navbar row navbar-expand-md navbar-dark" role="navigation">
-													<a class="navbar-brand" href="/"><img src="img/logo.png" alt="logo" /></a>
+													<a class="navbar-brand" href="/"><img src="/public/media/img/logo.png" alt="logo" /></a>
 													<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0 ml-auto" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 													<div class="collapse navbar-collapse navbar-1  sidebar-nav">
 															<ul class="site-navigation nav navbar-nav ml-auto">
-																	<li class="nav-item"><a href="" class="nav-link tesla-navigation" target="_blank">В Наличии</a></li>
-																	<li class="nav-item"><a href="#service" class="nav-link tesla-navigation" target="_blank">Сервис</a></li>
-																	<li class="nav-item"><a href="" class="nav-link tesla-navigation" target="_blank">Аксессуары</a></li>
-																	<!-- <li class="nav-item"><a href="https://eldargezalov.com" class="nav-link tesla-navigation" target="_blank">Designer</a></li>
-																	<li class="nav-item"><a href="https://blocstemplates.com/nikola.html" class="nav-link tesla-navigation" target="_blank">Download</a></li> -->
+																	<li class="nav-item"><a href="" class="nav-link tesla-navigation" >В Наличии</a></li>
+																	<li class="nav-item"><a href="services" class="nav-link tesla-navigation" >Сервис</a></li>
+																	<li class="nav-item"><a href="/accessories" class="nav-link tesla-navigation" >Аксессуары</a></li>
+																	<!-- <li class="nav-item"><a href="https://eldargezalov.com" class="nav-link tesla-navigation" >Designer</a></li>
+																	<li class="nav-item"><a href="https://blocstemplates.com/nikola.html" class="nav-link tesla-navigation" >Download</a></li> -->
 															</ul>
 													</div>
 											</nav>
@@ -52,8 +52,8 @@
 									<div class="col-lg-12 tesla-hero-titlte">
 											<h4 class="text-center mg-clear sm-shadow animated fadeInUp animDelay08" data-appear-anim-style="fadeInUp">VPSTESLA</h4>
 											<h1 class="text-center mg-clear sm-shadow none animated fadeInUp animDelay08 d-none d-md-block" data-appear-anim-style="fadeInUp">
-												<a href="" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block" style="width: 200px;" target="_blank">Авто в Наличии</a>
-												<a href="/service.html" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block" style="width: 200px;" target="_blank">Сервис</a>
+												<a href="/instock" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block" style="width: 200px;" >Авто в Наличии</a>
+												<a href="/services" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block" style="width: 200px;" >Сервис</a>
 											</h1></div>
 							</div>
 					</div>
@@ -81,19 +81,19 @@
 																<h2 class="text-center tc-white mg-clear sm-shadow">Service</h2>
 															</div>
 															<!-- <div class="col-lg-3 col-md-3 align-self-center tesla-hero-button-column animated fadeIn animDelay1" data-appear-anim-style="fadeIn">
-																	<div class="text-center"><a href="#services" class="btn btn-d btn-lg tesla-wire-button-white" target="_blank">Подробней</a></div>
+																	<div class="text-center"><a href="#services" class="btn btn-d btn-lg tesla-wire-button-white" >Подробней</a></div>
 															</div> -->
 													</div>
 											</div>
 											<div class="card border-0 card-sq bgc-white tesla-hero bottom text-center d-block d-md-none">
 												<div class="text-center">
-													<a href="/service.html" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block w-75 my-1" target="_blank">Сервис</a>
-													<a href="" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block w-75 my-1" target="_blank">Авто в Наличии</a>
+													<a href="/services" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block w-75 my-1" >Сервис</a>
+													<a href="/instock" class="btn btn-lg btn-d btn-rd tesla-wire-button-white d-inline-block w-75 my-1" >Авто в Наличии</a>
 												</div>
 											</div>
 									</div>
 									<div class="col-12 tesla-bottom-arrow">
-											<div class="text-center"><a href="#services" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md icon-white animLoopInfinite animated pulse none" data-appear-anim-style="pulse"></span></a></div>
+											<div class="text-center"><a href="services" data-scroll-speed="1000" onclick="scrollToTarget('0',this)"><span class="fa fa-angle-down icon-md icon-white animLoopInfinite animated pulse none" data-appear-anim-style="pulse"></span></a></div>
 									</div>
 							</div>
 					</div>
@@ -141,7 +141,7 @@
 				</div>
 				<div class="text-center">
 					<!-- <button class="btn btn-primary btn-lg">Полный Список Сервисных Услуг</button> -->
-					<a href="/service.html" class="btn btn-lg btn-d btn-rd tesla-wire-button-black d-inline-block" target="_blank">Полный Список Сервисных Услуг</a>
+					<a href="/services" class="btn btn-lg btn-d btn-rd tesla-wire-button-black d-inline-block" >Полный Список Сервисных Услуг</a>
 				</div>
 			</div>
 			<!-- Service END -->
@@ -159,7 +159,7 @@
 																	<br>
 															</p>
 															<div class="text-center">
-																<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Подробней</a>
+																<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Подробней</a>
 															</div>
 													</div>
 													<div class="col-12 offset-md-0 order-sm-3 order-3 order-lg-2 col-lg-12 align-self-end col-md-12 order-md-2 none"></div>
@@ -204,7 +204,7 @@
 											</div>
 										</div>
 									</div>
-									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Подробней</a>
+									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Подробней</a>
 								</div>
 							</div>
 						</div>
@@ -229,7 +229,7 @@
 											</div>
 										</div>
 									</div>
-									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Подробней</a>
+									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Подробней</a>
 								</div>
 							</div>
 						</div>
@@ -254,7 +254,7 @@
 											</div>
 										</div>
 									</div>
-									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Подробней</a>
+									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Подробней</a>
 								</div>
 							</div>
 						</div>
@@ -279,7 +279,7 @@
 											</div>
 										</div>
 									</div>
-									<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Подробней</a>
+									<a href="/instock" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Подробней</a>
 								</div>
 							</div>
 						</div>
@@ -302,7 +302,7 @@
 						</div>
 						<p>Неповторимый оригинал компании Tesla Motors начиная с 2012г. Именно этот автомобиль поднял планку для электромобилей класса Lux. Базовая комплектация данной модели имеет двигатель мощностью 60кВт/ч и задний привод, что позволяет брать 100км/ч всего за 5,9 секунд. Электрокар так же отлично подходит для дальних поездок, что существенно расширяет перспективу его применений и по сей день.</p>
 						<div class="text-center">
-							<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Авто в Наличии</a>
+							<a href="/instock" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Авто в Наличии</a>
 						</div>
 					</div>
 				</div>
@@ -317,7 +317,7 @@
 						<p>Tesla Model 3 поражает всеми своими аспектами. У нее стильный и стремительный дизайн, который как нельзя лучше подчеркнет характер и статус своего владельца в обществе. Внутри вы найдете массу хитроумных систем и полезных устройств, призванных сделать вашу поездку комфортной, интересной, а самое главное- безопасной. Производитель прекрасно понимает, что автомобиль- это не высокотехнологичная игрушка и в первую очередь он должен дарить удовольствие от вождения. Именно поэтому, седан оснащен инновационной силовой установкой, являющейся прекрасным аналогом традиционным двигателем внутреннего сгорания. Tesla Model 3 прослужит вам многие километры и подарит незабываемые эмоции от поездки.
 						</p>
 						<div class="text-center">
-							<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Авто в Наличии</a>
+							<a href="/instock" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Авто в Наличии</a>
 						</div>
 					</div>
 				</div>
@@ -332,7 +332,7 @@
 						<p>Вопреки расхожему мнению, Model 3 не имеет почти ничего общего с Model S – это совершенно разные электромобили, у которых намного больше различий, чем сходства. Причём как в мелочах вроде дверных ручек, кнопок открытия дверей и салонного зеркала заднего вида, так и в конструкции всех основных частей и элементов. Кузов данного электрокара целиком стальной. По скоростным и динамическим характеристикам новинка Tesla не сильно проигрывает Model S: Model 3 разгоняется до 100 км/ч за 5,1 с и способна развить максимальную скорость 225 км/ч!
 						</p>
 						<div class="text-center">
-							<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" target="_blank">Авто в Наличии</a>
+							<a href="/instock" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block mt-4" >Авто в Наличии</a>
 						</div>
 					</div>
 				</div>
@@ -342,25 +342,16 @@
 
 	<div class="container my-3">
 		<div class="text-center my-3">
-			<h2>Официкальные аксессуары Tesla</h2>
+			<h2>Официальные аксессуары Tesla</h2>
 		</div>
 		<div class="text-center">
 			<h4>От зарядок и адаптеров до ковриков и футболок</h4>
 			<div class="photos">
-				<img class="img-fluid" src="/public/media/img/swap/tesla_adapters.jpg" alt="">
+				<a href="/accessories">
+					<img class="img-fluid" src="/public/media/img/swap/tesla_adapters.jpg" alt="">
+				</a>
 			</div>
-			<a href="" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block my-4" target="_blank">Каталог Аксессуаров</a>
-		</div>
-	</div>
-
-	<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
-	<!-- ScrollToTop Button END-->
-	<div class="container-fluid bg-dark" style="height: 5rem;">
-		<div class="text-center text-white py-3">
-			<span>+380 99 549 7534</span>
-			<br>
-			<span>+380 99 549 7534</span>
+			<a href="/accessories" class="btn btn-d btn-rd tesla-wire-button-black d-inline-block my-4" >Каталог Аксессуаров</a>
 		</div>
 	</div>
 

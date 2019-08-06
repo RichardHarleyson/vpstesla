@@ -17,6 +17,7 @@ abstract class Controller
 		// $_SESSION['admin'] = 1;
 		// debug($this->checkAcl());
 		if($this->checkAcl() == false){
+			echo 'Access Denied<br>';
 			View::errorCode(403);
 		}
 		$this->view = new View($route);
@@ -45,6 +46,7 @@ abstract class Controller
 	}
 
 	public function isAcl($key){
+		// debug($this->acl[$key]);
 		return in_array($this->route['action'], $this->acl[$key]);
 	}
 
